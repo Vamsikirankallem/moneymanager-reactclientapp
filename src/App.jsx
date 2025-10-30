@@ -8,6 +8,7 @@ import Filter from './pages/Filter'
 import Income from './pages/Income'
 import Expense from './pages/Expense'
 import { Toaster } from 'react-hot-toast'
+import LandingPage from './pages/LandingPage'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
     <Toaster/>
      <Routes>
       <Route path='/' Component={Root} />
+      <Route path='/home' element={<LandingPage/>}/>
        <Route path='/dashboard' element={<Home/>}/>
        <Route path='/login' element={<Login/>}/>
        <Route path='/signup' element={<Signup/>}/>
