@@ -4,7 +4,7 @@ import { addThousandsSeparator } from '../util/util'
 
 const FinanceOverview = ({totalBalance,totalIncome,totalExpense}) => {
 
-    const COLORS = ["#59168B","#a0090e","#016630"]
+    const COLORS = ["#59168B","#016630","#a0090e"]
 
     const balanceData = [
         {
